@@ -1,0 +1,141 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.skill-elements{
+		padding: 10px 15px;
+	}
+	.single-service p{
+		font-size: 14px;
+	}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	html, body, header {
+		height: auto;
+	}
+	.hero-area div{
+	    height: 550px !important;
+	}
+	.about-inner{
+		background: #fff;
+	}
+	.my-title.service p{
+		margin-top: 20px;
+	}
+	.my-title.contact p{
+		margin-top: 14px;
+	}
+	.c-form input[type="submit"] {
+	    height: auto;
+	}
+	.why-area h3{
+		font-size: 20px;
+	}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	html, body, header {
+		height: auto;
+	}
+	.hero-area div{
+	    height: 450px !important;
+	}
+	.about-inner{
+		background: #fff;
+	}
+	.hero-text-table-cell span {
+	    font-size: 31px;
+	    font-weight: 600;
+	    letter-spacing: 1px;
+	    height: 38px;
+	}
+	.hero-text-table-cell span{
+		line-height: 35px;
+	}
+	.my-title h1{
+		margin-bottom: 30px;
+	}
+	.about-info{
+		padding: 15px;
+	}
+	.about-info .s-img {
+	    left: 26px;
+	    top: 38px;
+	}
+	.single-count {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+	.single-count img{
+		left: 15px;
+	}
+	.why-area h3 {
+	    margin-top: 14px;
+	    margin-bottom: 20px;
+	    font-size: 20px;
+	    line-height: 28px;
+	}
+	.my-title.portfolio{
+		margin-bottom: 30px;
+	}
+	.portfolio-nav ul li {
+		width: 32%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	p.author-says {
+	    font-size: 15px;
+	    padding: 30px 20px 0px;
+	    position: relative;
+	}
+	.c-form input[type="submit"]{
+		height: auto;
+	}
+	.single-count img {
+		left: 13px;
+		top: 50%;
+		margin-top: -36px;
+	}
+
+	.sec-padding{
+	    padding: 40px 0px;
+	}
+	.menu-area{
+		overflow-x: hidden;
+	}
+	#qoute-area h3{
+		font-size: 28px;
+	}
+	    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.s-img {
+	    top: 50%;
+	    margin-top: -25px;
+	}
+	.about-info .s-img {
+		top: 50%;
+		margin-top: -15px;
+	}
+}
+/* Iphone Mobile Layout: 350px. */
+@media only screen and (max-width: 350px) { 
+	.menu-area{
+		width: 225px;
+	}
+	.single-count p{
+		font-size: 13px;
+	}
+	.skill-elements h3{
+		width: 42%;
+		font-size: 18px;
+	}
+	.portfolio-nav ul li{
+		width: 49%;
+	}
+	.skill-elements{
+		padding: 10px 20px;
+	}
+}
